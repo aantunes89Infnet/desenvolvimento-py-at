@@ -1,0 +1,14 @@
+Teste.txt: 21 bytes 
+ex-2.py: 181 bytes 
+ex-5: 128 bytes 
+ex-3: 160 bytes 
+ex-1-b.py: 365 bytes 
+ex-1-c.py: 774 bytes 
+ex-3.py: 943 bytes 
+ex-4.py: 223 bytes 
+ex-5.py: 662 bytes 
+ex-4.txt: 34 bytes 
+ex-1-a.py: 296 bytes 
+venv: 192 bytes 
+main.py: 517 bytes 
+.idea: 256 bytes 
