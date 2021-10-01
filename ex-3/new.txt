@@ -1,5 +1,5 @@
 Teste.txt: 21 bytes 
-ex-2.py: 207 bytes 
+ex-2.py: 247 bytes 
 ex-5: 128 bytes 
 ex-3: 128 bytes 
 ex-1-b.py: 365 bytes 

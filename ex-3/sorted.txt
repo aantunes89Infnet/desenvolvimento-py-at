@@ -8,7 +8,7 @@ ex-7: 128 bytes
 ex-8: 160 bytes 
 ex-9: 160 bytes 
 venv: 192 bytes 
-ex-2.py: 207 bytes 
+ex-2.py: 247 bytes 
 .idea: 288 bytes 
 ex-1-a.py: 296 bytes 
 ex-1-b.py: 365 bytes 

@@ -59,3 +59,11 @@ print(end_time - init_time)
 # N 1.000.000 = 6.7s
 # N 5.000.000 = 26s
 # N 10.000.000 = 53s
+
+# No caso os processos demoram mais nesta situação, 
+# porque os cores se dividem para cada
+# processo, e como a lista é muito grande, temos cada processo e core
+# tratando listas muito grandes
+
+# Nesta situação é prefirível usar threads pois podemos dividir os calculos em threads
+# utilizando melhor os cores, que vão se dedicar a apenas um processo que dividiu o calculo em threads

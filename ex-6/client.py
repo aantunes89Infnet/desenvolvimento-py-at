@@ -8,7 +8,7 @@ address = ('localhost', 8000)
 client_skt.connect(address)
 
 while True:
-    msg = input("Digite nome do arquivo: ")
+    msg = input("Digite o caminho do diretorio: ")
     client_skt.send(msg.encode('ascii'))
 
     if msg == 'exit':
