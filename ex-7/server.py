@@ -1,5 +1,4 @@
 import socket, pickle
-import time
 
 import psutil
 
@@ -15,7 +14,6 @@ while True:
     (msg, client) = server_socket.recvfrom(1024)
     try:
         content = msg.decode('ascii')
-        time.sleep(2)
         server_socket.sendto("recebido".encode('ascii'), client)
 
         memory = psutil.virtual_memory()
