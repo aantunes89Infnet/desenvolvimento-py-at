@@ -1,9 +1,10 @@
 import os
 
-file = input("Digite o nomedo arquivo")
-openFile = f"notepad.exe {file}.txt"
-os.system(openFile)
+file = input("Digite o nomedo arquivo: ")
+# windows
+# openFile = f"notepad.exe {file}.txt"
+# os.system(openFile)
 
-
-# import subprocess
-# subprocess.call(['open', '-a', 'TextEdit', file])
+# mac
+import subprocess
+subprocess.call(['open', '-a', 'TextEdit', f"{file}.txt"])

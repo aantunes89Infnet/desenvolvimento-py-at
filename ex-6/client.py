@@ -1,4 +1,5 @@
 import socket
+import pickle
 
 client_skt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -14,7 +15,11 @@ while True:
         break
 
     content = client_skt.recv(1024)
-    print(content.decode('ascii'))
+    decoded_content = pickle.loads(content)
+    print("---------------ARQUIVOS---------------")
+    for file in decoded_content:
+        print(file)
+    print("--------------------------------------")
 
 
 client_skt.close()
