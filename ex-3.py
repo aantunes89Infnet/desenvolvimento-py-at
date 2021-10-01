@@ -29,13 +29,13 @@ sorted_dict = dict()
 for el in sorted(file_structure.items(),key = lambda kv:(kv[1], kv[0])):
     sorted_dict[el[0]] = el[1]
 
-print(sorted_dict)
 
 for k, v in sorted_dict.items():
     sorted_file.write(f"{k}: {v} bytes \n")
 
 sorted_file.close()
 
+sorted_file = open(f"{dirpath}/sorted.txt", "r")
 
-#
-
+for l in sorted_file:
+    print(l)

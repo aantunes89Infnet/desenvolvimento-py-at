@@ -21,7 +21,7 @@ def generate_array_or_random_integers(qtd):
 
 def calc_factorial_in_threads():
     n_thread = 4
-    array_a = generate_array_or_random_integers(10000000)
+    array_a = generate_array_or_random_integers(20)
 
     divide_list_by_thread = len(array_a) / n_thread
 
